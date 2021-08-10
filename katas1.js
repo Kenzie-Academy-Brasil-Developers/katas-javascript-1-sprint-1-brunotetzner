@@ -1,94 +1,170 @@
-function oneThroughTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result*/
-    
+//Katas 1
+
+let soma = 0
+function oneThroughTwenty(total) {
+
+for(i=0; i<total; i++){
+   soma = soma+1
+   console.log(soma)
 }
 
-//call function oneThroughTwenty
+}
 
-function evensToTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result */
+console.log(oneThroughTwenty(20))
+
+//katas 2
+soma=0
+function evensToTwenty(total) {
   
-}
-
-//call function evensToTwenty
-
-function oddsToTwenty() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-   
-}
-
-//call function oddsToTwenty
-
-function multiplesOfFive() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  
+  
+  for(i=0; i<total; i++){
+      soma = soma+1
+         if(soma%2 == 0){
+             console.log(soma)
+         }
+     }
 
 }
+console.log(evensToTwenty(20))
 
-//call function multiplesOfFive
+//katas 3
+ soma = 0
+function oddsToTwenty(total) {
 
-function squareNumbers() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-    
+
+
+for(i=0; i<total; i++){
+soma = soma+1
+   if(soma%2 != 0){
+       console.log(soma)
+   }
 }
 
-//call function squareNumbers
+}
+console.log(oddsToTwenty(20))
 
-function countingBackwards() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+//katas 4
+
+ soma = 0
+function multiplesoffive(total) {
+
+
+
+  for(i=0; i<total; i++){
+    soma = soma+1
+    if(soma%5 == 0){
+         console.log(soma)
+    }
+  }
+
 }
 
-//call function countingBackwards
+console.log(multiplesoffive(100))
 
-function evenNumbersBackwards() {
+//katas 5
+
+ soma = 0
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+function squareNumbers(total) {
+
+
+
+    for(i=0; i<total; i++){
+        soma = soma+1
+        let perfeito = (soma*soma)
+        if(perfeito%soma == 0){
+            console.log(perfeito)
+         }
+    }
+
 }
+console.log(squareNumbers(10))
 
-//call function evenNumbersBackwards
 
-function oddNumbersBackwards() {
+//katas 6
+ soma = 0
+ function countingBackward(total) {
+  
+  
+  
+  for(i=total; i>0; i= i-1){
+      console.log(i)
+      
+  }
+}
+console.log(countingBackward(20))
+
+//katas 7
+ soma = 0
+ 
+function evenNumbersBackwards(total) {
+
+
+
+    for(i=total; i>0; i=i-1){
+        
+         if(i%2 == 0){
+            console.log(i)      
+         }
+    }
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+
 }
+console.log(evenNumbersBackwards(20))
 
-//call function oddNumbersBackwards
 
-function multiplesOfFiveBackwards() {
+//katas 8
+ soma = 0
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-}
+function oddNumbersBackwards(total) {
 
-//call function multiplesOfFiveBackwards
 
-function squareNumbersBackwards() {
+
+    for(i=total; i>0; i=i-1){
+        
+         if(i%2 != 0){
+            console.log(i)      
+         }
+    }
     
-   /* Your code goes below
-  Write a for or a while loop
-  return the result */
-}
 
-//call function squareNumbersBackwards
+}
+console.log(oddNumbersBackwards(20))
+
+
+//katas 9 
+ soma = 0
+    
+function multiplesOfFiveBackwards(total) {
+
+
+
+    for(i=total; i>0; i=i-1){
+        
+         if(i%5 == 0){
+            console.log(i)      
+         }
+    }
+    
+
+}
+console.log(multiplesOfFiveBackwards(100))
+
+//katas 10
+    
+  let perfeito 
+  function quareNumbersBackwards(total) {
+  
+      for(i=total; i>0; i=i-1){
+          perfeito = i*i
+          
+           if(perfeito%i == 0){
+              console.log(perfeito)      
+           }
+      }
+      
+  
+  }
+  console.log(quareNumbersBackwards(10))
+  
